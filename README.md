@@ -6,8 +6,11 @@ Windows 桌面截图 + 标注工具，PySide6 实现。常驻托盘，全局快�
 
 ### 方式一：直接运行 exe（推荐，目标机器无需 Python）
 
-双击 `dist\JietuPro.exe` 即可。单文件约 120MB（内置离线 OCR 模型），不依赖 Python 环境，
+从 [Releases](https://github.com/Lirenjun11/jietu/releases/latest) 下载 `JietuPro.exe`
+直接双击运行。单文件约 120MB（内置离线 OCR 模型），不依赖 Python 环境，
 可直接拷贝到任意 Windows 10/11 机器使用。
+
+源码构建产物位于 `dist\JietuPro.exe`，重新打包见文末「打包成 exe」。
 
 ### 方式二：源码运行
 
